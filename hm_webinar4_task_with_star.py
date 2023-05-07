@@ -13,10 +13,11 @@
 
 def max_division_by_3(num):
     num = str(num)
+    new_num = ''
     exit_flag = False
-    for i in range(0, len(num)):
-        for j in range(9, int(num[i]), -1):
-            new_num = num[:i] + str(j) + num[i + 1:]
+    for ranks in range(0, len(num)):
+        for j in range(9, int(num[ranks]), -1):
+            new_num = num[:ranks] + str(j) + num[ranks + 1:]
             if int(new_num) % 3 == 0:
                 exit_flag = True
                 new_num = int(new_num)
