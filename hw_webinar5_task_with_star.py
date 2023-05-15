@@ -12,14 +12,14 @@
 
 def to_roman(val):
     roman_str = ''
-    roman_num_dict = {'1000': ["", "M", "MM", "MMM", "MMMM", 'MV', 'V', 'VM', 'VMM', 'VMMM', 'MX'],
-                      '100': ["", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"],
-                      '10': ["", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"],
-                      '1': ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"],
+    roman_num_dict = {1000: ["", "M", "MM", "MMM", "MMMM", 'MV', 'V', 'VM', 'VMM', 'VMMM', 'MX'],
+                      100: ["", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"],
+                      10: ["", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"],
+                      1: ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"],
                       }
     for rank in roman_num_dict.keys():
-        roman_str += roman_num_dict[rank][val // int(rank)]
-        val = val % int(rank)
+        roman_str += roman_num_dict[rank][val // rank]
+        val = val % rank
     return roman_str
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
