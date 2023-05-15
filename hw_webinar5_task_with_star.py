@@ -18,10 +18,7 @@ def to_roman(val):
                       '1': ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"],
                       }
     for rank in roman_num_dict.keys():
-        if val // int(rank) > 0:
-            roman_str += roman_num_dict[rank][val // int(rank)]
-        else:
-            continue
+        roman_str += roman_num_dict[rank][val // int(rank)]
         val = val % int(rank)
     return roman_str
 
