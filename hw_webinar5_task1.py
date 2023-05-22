@@ -7,6 +7,11 @@
 
 
 def letter_stat(our_str):
+    """
+    Функция на сход принимает строку, а возвращает словарь с ключами буквами этой строки, а значениями колличеством
+     вхождений этой буквы во входную строку
+    :param our_str: входная строка
+    """
     letters_dict = {item: our_str.count(item) for item in our_str}
     return letters_dict
 

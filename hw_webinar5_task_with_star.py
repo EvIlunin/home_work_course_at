@@ -11,6 +11,9 @@
 
 
 def to_roman(val):
+    """Функция переводит входную дату из арабских цифр в римские
+    :param val: входной значение даты арабскими цифрами
+    """
     roman_str = ''
     roman_num_dict = {1000: ["", "M", "MM", "MMM", "MMMM", 'MV', 'V', 'VM', 'VMM', 'VMMM', 'MX'],
                       100: ["", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"],

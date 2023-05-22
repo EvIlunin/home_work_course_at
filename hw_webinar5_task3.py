@@ -19,6 +19,9 @@
 
 
 def everything_for_your_cat(cats_data):
+    """Функция оптимизируется данные из начального списка и выводит их в сгруппировнном формате
+    :param cats_data: входой список данных
+    """
     our_str = ''
     finnish_dict = {}
     for owner in cats_data:
