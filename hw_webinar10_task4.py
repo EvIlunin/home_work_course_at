@@ -17,18 +17,3 @@ import random
 
 
 # Здесь пишем код
-import string
-
-
-def generate_random_name():
-    def generate_str():
-        return ''.join(random.sample(string.ascii_lowercase, random.randint(1, 15)))
-    while True:
-        yield f'{generate_str()} {generate_str()}'
-
-
-gen = generate_random_name()
-print(next(gen))
-print(next(gen))
-print(next(gen))
-print(next(gen))
