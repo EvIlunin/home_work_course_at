@@ -15,3 +15,31 @@ def all_division(*arg1):
     for i in arg1[1:]:
         division /= i
     return division
+
+
+def test_1():
+    """Тест №1 """
+    assert all_division(3, 6) == 0.5
+
+
+@pytest.mark.aссeptance
+def test_2():
+    """Тест №2"""
+    assert all_division(3, 4, 6) == 0.125
+
+
+@pytest.mark.smoke
+def test_3_my_tree():
+    """Тест №3"""
+    assert all_division(3, 1) == 3
+
+
+def test_4_my():
+    """Тест №4"""
+    assert all_division(1, 1) == 1
+
+
+def test_5_zero_division():
+    """Тест №5 с делением на ноль"""
+    with pytest.raises(ZeroDivisionError):
+        all_division(1, 0, 0)
