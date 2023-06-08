@@ -8,16 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31e093e7-f15e-4726-a3d6-6afad3ffa5c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_hw_webinar10_task3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/home_work_course_at.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/home_work_course_at.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_webinar10_task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_webinar10_task1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_webinar10_task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_hw_webinar10_task2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_webinar10_task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_hw_webinar10_task4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_webinar10_task4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_webinar10_with_star.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_webinar10_with_star.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_hw_webinar10_task4.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_hw_webinar10_task4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +53,7 @@
       <recent name="C:\home_work_course_at" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in hw_webinar10_with_star.py">
+  <component name="RunManager" selected="Python tests.Python tests for hw_webinar10_with_star.test">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -80,28 +75,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_hw_webinar10_task4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="home_work_course_at" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Python3_11\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\home_work_course_at\test_hw_webinar10_task4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_hw_webinar10_task4.TestFixture" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for hw_webinar10_with_star.test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="home_work_course_at" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -111,11 +85,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_hw_webinar10_task4.TestFixture&quot;" />
+      <option name="_new_target" value="&quot;hw_webinar10_with_star.test&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_hw_webinar10_task4.TestFixture.test_2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for hw_webinar10_with_star.test2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="home_work_course_at" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -125,7 +99,35 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_hw_webinar10_task4.TestFixture.test_2&quot;" />
+      <option name="_new_target" value="&quot;hw_webinar10_with_star.test2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for hw_webinar10_with_star.test_2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="home_work_course_at" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;hw_webinar10_with_star.test_2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_hw_webinar10_task4.TestFixture.test_1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="home_work_course_at" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_hw_webinar10_task4.TestFixture.test_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -140,20 +142,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/hw_webinar10_with_star.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in test_hw_webinar10_task4.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="home_work_course_at" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_hw_webinar10_task4.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -174,19 +162,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test_hw_webinar10_task4" />
-      <item itemvalue="Python tests.Python tests in test_hw_webinar10_task4.py" />
-      <item itemvalue="Python tests.Python tests for test_hw_webinar10_task4.TestFixture" />
-      <item itemvalue="Python tests.Python tests for test_hw_webinar10_task4.TestFixture.test_2" />
+      <item itemvalue="Python tests.Python tests for hw_webinar10_with_star.test" />
+      <item itemvalue="Python tests.Python tests for hw_webinar10_with_star.test2" />
+      <item itemvalue="Python tests.Python tests for hw_webinar10_with_star.test_2" />
+      <item itemvalue="Python tests.Python tests for test_hw_webinar10_task4.TestFixture.test_1" />
       <item itemvalue="Python tests.Python tests in hw_webinar10_with_star.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for hw_webinar10_with_star.test" />
         <item itemvalue="Python tests.Python tests in hw_webinar10_with_star.py" />
-        <item itemvalue="Python tests.Python tests for test_hw_webinar10_task4.TestFixture" />
-        <item itemvalue="Python tests.Python tests for test_hw_webinar10_task4.TestFixture.test_2" />
-        <item itemvalue="Python tests.Python tests in test_hw_webinar10_task4.py" />
-        <item itemvalue="Python.test_hw_webinar10_task4" />
+        <item itemvalue="Python tests.Python tests for test_hw_webinar10_task4.TestFixture.test_1" />
+        <item itemvalue="Python tests.Python tests for hw_webinar10_with_star.test2" />
+        <item itemvalue="Python tests.Python tests for hw_webinar10_with_star.test_2" />
       </list>
     </recent_temporary>
   </component>
@@ -214,5 +202,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="tests">
+        <watch expression="request.config" />
+        <watch expression="request" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

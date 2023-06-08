@@ -19,7 +19,7 @@ class TestFixture:
     ), ids=['test_1', 'test_2', 'test_3_my_tree'])
     def test_1(self, test, timer_test):
         """Тест который делает ничего =)"""
-        time.sleep(0.5)
+        time.sleep(1)
         pass
 
 
